@@ -1,0 +1,12 @@
+To build execute the following command:
+
+	mkdir wordcount_classes
+
+
+	"C:\Program Files\Java\jdk1.6.0_23\bin\javac.exe" -classpath C:\hadoop\hadoop-0.21.0\hadoop-common-0.21.0.jar;C:\hadoop\hadoop-0.21.0\hadoop-mapred-0.21.0.jar;C:\hadoop\hadoop-0.21.0\hadoop-hdfs-0.21.0.jar -d wordcount_classes WordCount.java
+
+
+To package as a jar:
+	cd wordcount_classes
+
+	"C:\Program Files\Java\jdk1.6.0_23\bin\jar.exe" cvf wordcount.jar .
